@@ -7,8 +7,27 @@ ul {
   justify-content: center;
   max-height: 400px;
   overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #746952 transparent;
 }
 ul p.character-data {
   margin: 0px;
   font-size: 20px;
+}
+
+ul::-webkit-scrollbar {
+  width: 7px;
+}
+
+ul::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+ul::-webkit-scrollbar-thumb {
+  background: #746952;
+  border-radius: 30px;
+}
+
+ul::-webkit-scrollbar-thumb:hover {
+  background: #746952;
 }/*# sourceMappingURL=ResidentsData.css.map */
