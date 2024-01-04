@@ -30,7 +30,9 @@ watchEffect(() => {
     <li v-for="character in characters" :key="character.id">
       <img :src="character.image" />
       <p class="character-data">{{ character.name }}</p>
-      <p class="character-data">{{ character.status }}</p>
+      <p class="character-data" :class="character.status">
+        {{ character.status }}
+      </p>
     </li>
   </ul>
 </template>

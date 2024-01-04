@@ -15,6 +15,14 @@ ul p.character-data {
   font-size: 20px;
 }
 
+.Dead {
+  color: #9f1b1b;
+}
+
+.Alive {
+  color: #176717;
+}
+
 ul::-webkit-scrollbar {
   width: 7px;
 }
