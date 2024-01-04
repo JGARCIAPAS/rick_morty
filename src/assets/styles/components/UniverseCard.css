@@ -1,0 +1,38 @@
+.card-location article {
+  /*   background-image: url("../../img/paper.png");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: center; */
+  background: pink;
+}
+
+section {
+  overflow: auto;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: center;
+  height: calc(100vh - 172.16px);
+}
+section article {
+  width: 100%;
+  border-radius: 5px;
+  margin: 10px;
+}
+section article .top-data-location {
+  display: flex;
+  align-items: center;
+}
+section article .top-data-location .info-location {
+  text-align: left;
+}
+section article .earth {
+  width: 50px;
+  height: 50px;
+}
+section article p {
+  margin: 0px;
+  font-size: 20px;
+  color: #000;
+}/*# sourceMappingURL=UniverseCard.css.map */

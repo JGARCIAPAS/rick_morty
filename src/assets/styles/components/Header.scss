@@ -1,0 +1,17 @@
+@import "../vars/colors";
+
+.header {
+  font-family: "Redacted Script";
+  position: relative;
+  text-align: center;
+  height: 127.16px;
+  .main-logo {
+    max-width: 300px;
+  }
+  h1 {
+    margin: 0px;
+    font-size: 30px;
+    color: $title-color;
+    text-shadow: 0px 0px 19px $light;
+  }
+}

@@ -1,0 +1,39 @@
+@import "../vars/colors";
+section {
+  overflow: auto;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: center;
+  height: calc(100vh - 172.16px);
+  scrollbar-width: thin;
+  scrollbar-color: $scrollbar transparent;
+  article {
+    .earth {
+      width: 200px;
+    }
+    p {
+      margin: 0px;
+      font-size: 30px;
+      color: $light;
+    }
+  }
+}
+
+section::-webkit-scrollbar {
+  width: 7px;
+}
+
+section::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+section::-webkit-scrollbar-thumb {
+  background: $scrollbar;
+  border-radius: 30px;
+}
+
+section::-webkit-scrollbar-thumb:hover {
+  background: $scrollbar;
+}

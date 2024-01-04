@@ -1,0 +1,1 @@
+{"version":3,"sources":["LoadingSpinner.scss","LoadingSpinner.css","../vars/_colors.scss"],"names":[],"mappings":"AACA;EAEE,aAAA;EACA,uBAAA;EACA,mBAAA;ACDF;ADEE;EACE,kBAAA;EACA,yBAAA;EACA,eAAA;ACAJ;ADCI;EACE,WAAA;EACA,cEZE;ADaR;;ADGA;EACE,YAAA;ACAF","file":"LoadingSpinner.css"}

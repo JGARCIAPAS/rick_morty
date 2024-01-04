@@ -1,0 +1,19 @@
+@import "../vars/colors";
+.background-spinner {
+  //background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .spinner-content {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    p {
+      margin: 0px;
+      color: $light;
+    }
+  }
+}
+img {
+  width: 100px;
+}

@@ -1,0 +1,36 @@
+section {
+  overflow: auto;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: center;
+  height: calc(100vh - 172.16px);
+  scrollbar-width: thin;
+  scrollbar-color: #00ff00 transparent;
+}
+section article .earth {
+  width: 200px;
+}
+section article p {
+  margin: 0px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+section::-webkit-scrollbar {
+  width: 7px;
+}
+
+section::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+section::-webkit-scrollbar-thumb {
+  background: #00ff00;
+  border-radius: 30px;
+}
+
+section::-webkit-scrollbar-thumb:hover {
+  background: #00ff00;
+}/*# sourceMappingURL=Universes.css.map */
