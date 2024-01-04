@@ -11,8 +11,8 @@ Simplemente se limita a sacar un listado de dimensiones, con su nombre y residen
 
 ## Screenshots
 
-![App Screenshot](https://jgarciapas.github.io/rick_morty/img/screenshots/01.png)
-![App Screenshot](https://jgarciapas.github.io/rick_morty/img/screenshots/02.png)
+![App Screenshot](https://jgarciapas.github.io/rick_morty/img/screenshots/01.PNG)
+![App Screenshot](https://jgarciapas.github.io/rick_morty/img/screenshots/02.PNG)
 
 ## Tech Stack
 
